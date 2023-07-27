@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>i</title>
+    <link rel="stylesheet" href="style.css ">
+  </head>
+ <body class="dd">
+  <fieldset class="ss">
+    <br>
+    <legend>البيانات الاساسية</legend>
+    <form method="post">
+   <input type="text" required>الاسم الاول  
+    <input type="text" required>اسم الاب  
+    <br>
+    <br>
+    <input type="tex" required >اسم العائلة 
+    <br>
+   <br>
+   <input list="data" name="datast">
+     <datalist id="data">
+     <option>اختر منطقة</option>
+     <option> ماجوري </option>
+     <option> شارع عشرين </option>
+     <option> شارع فينيسيا </option>
+     <option> البركة </option>
+     <option> حي الفاتح</option>
+     <option>حي السلام</option>
+     <option> السلماني الشرقي </option>
+     <option> السلماني الغربي</option>
+     <option>كويفية</option>
+     <option>بوهديمة</option>
+     <option>الهواري </option>
+     <option>ارض زواوة</option>
+     <option>الكيش</option>
+     <option> الحدائق</option>
+     <option> لوحيشي</option>
+     <option>بوعطني(المساكن)</option>
+     <option>بوعطني (القرية)</option>
+     <option>شبنة</option>
+     <option>قاريونس</option>
+     <option>رأس عبيده</option>
+     <option>الفويهات </option>
+     <option>بلعون</option>
+     <option>سرتية</option>
+     <option>طبلينو</option>
+     <option> الصابري</option>
+     <option>البلاد</option>
+     <option>الدقادوستا</option>
+     <option>الرحبة</option>
+     <option>الزيتونة</option>
+     <option>الليتي</option>
+     <option>حي الدولار</option>
+     <option>حي القطر</option>
+     <option>السيدة عائشة</option>
+     <option>شارع بيروت</option>
+     <option> بن يونس</option>
+     <option>سيدي حسين</option>
+     <option>شارع جمال</option>
+     <option></option>
+     <option></option>
+     <option></option>
+     </datalist>      
+       : المنطقة  
+     <br>
+     <br>
+    </form>
+   </fieldset>
+   <fieldset class="ss">
+    <br>
+    <legend>بيانات التواصل</legend>
+   <form>
+  <input type="text" required> الهاتف     
+  <br>
+  <br>
+  <input type="text" width="10"  required>     : اسم الجامعة 
+  <br>
+  <br>
+    <input type="submit" value="  ارسال طلبك ">
+    <input type="reset" value="حذف البيانات">
+  </form>
+   </fieldset>
+  </body>
+</html>

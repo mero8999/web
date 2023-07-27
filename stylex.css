@@ -1,0 +1,20 @@
+
+.dd{
+    background-image:url(style.jpg);
+    background-size: cover; /* تغطية الشاشة بالكامل */
+    padding: 50px  ;
+     text-align: center;
+     width: fit-content;/* عرض محتوى الصفحه*/
+     letter-spacing: 1px;/* مسافة بين الاحرف او الكلمات*/
+     line-height: 10px;
+     margin: 30px;
+}
+
+.ss{
+   
+   padding: 20px ;
+    margin: 30px;
+    border-width: 5px ; 
+
+}
+
